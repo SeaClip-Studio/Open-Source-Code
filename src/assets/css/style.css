@@ -692,6 +692,22 @@ a i {
     .newsletter p{
         width:auto;
     }
+	.project__boxes .box {
+    min-width: calc(100% - 10px);
+}
+.project__info{
+    position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	margin-left: 25px;
+    color: var(--first-color);
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
 }
 
 a.button, a.button:hover {
