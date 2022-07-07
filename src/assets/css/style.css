@@ -690,7 +690,7 @@ a i {
 	left: 0;
 	display: flex;
 	margin: auto;
-	justify-content: center;
+	justify-content: right;
 }
 }
 
