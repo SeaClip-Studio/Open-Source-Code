@@ -1,6 +1,6 @@
 ### ⭐ OSC - Open Source Code
 
-> The **OSC project** is that every user of our **discord server** can share their source project code, **weekly we choose a project** worth paying attention to and then we place such a project on our website in the **"BEST IN WEEK"** section and on this repository, selecting the **"open-source-code" branch** you will see all the projects that we have adopted so far
+> The **OSC project** is that every user of our **discord server** can share their source project code, **weekly we choose a project** worth paying attention to and then we place such a project on our website in the **"PROJECTS"** section and on this repository, selecting the **"open-source-code" branch** you will see all the projects that we have adopted so far
 
 ### ✨ How do I get to publish my project on your site?
 
