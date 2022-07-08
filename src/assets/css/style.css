@@ -1122,12 +1122,37 @@ a.button, a.button:hover {
 	color: #213547;
 }
 
+.profile__exp {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	position: absolute;
+	top: 415px;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+
+.profile__experience {
+	background: #000;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	color: var(--black-color);
+	font-size: 1rem;
+	letter-spacing: 1px;
+	margin: 10px;
+}
+.profile__experience i {
+	margin-right: 5px;
+}
+
 .profile__stats {
 	display: flex;
 	margin: auto;
 	justify-content: center;
 	position: absolute;
-	bottom: 20px;
+	bottom: 5px;
 	width: 100%;
 	left: 0;
 	right: 0;
@@ -1144,4 +1169,7 @@ a.button, a.button:hover {
 		width: calc(70% - 70px);
 		height: 50px;
 }
+	.profile__experience {
+		width: calc(25% - 5px);
+	}
 }
