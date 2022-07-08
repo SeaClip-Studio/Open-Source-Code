@@ -953,6 +953,9 @@ a.button, a.button:hover {
     font-size: 1rem;
     margin-bottom: 5px;
 }
+.project__info:hover {
+	color: #42b8b8;
+}
 
 .project__link {
 	display: flex;
@@ -1022,4 +1025,126 @@ a.button, a.button:hover {
     margin-bottom: 5px;
 }
 
+}
+
+
+
+.profile__card {
+	position: relative;
+	top: 100px;
+	width: 700px;
+	height: 500px;
+	background: var(--white-color);
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	border-radius: 25px;
+	box-shadow: 0px 0px 3px 0px rgb(71, 71, 71);
+}
+
+.profile__card img {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	width: 150px;
+	position: absolute;
+	top: 50px;
+	border-radius: 100px;
+}
+
+.profile__info .profile__name {
+	color: var(--black-color);
+	position: relative;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	top: 210px;
+	font-weight: 500;
+}
+.profile__info .profile__about {
+	color: var(--black-color);
+	font-size: .9rem;
+	font-weight: 400;
+	position: relative;
+	top: 210px;
+}
+
+.profile__soc {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	position: absolute;
+	top: 270px;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+.profile__socials {
+	background: #000;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	color: var(--black-color);
+	font-size: 1.2rem;
+	margin: 10px;
+	cursor: pointer;
+	border: 2px solid #000;
+	transition: .4s linear;
+}
+.profile__socials:hover {
+	background: #0f0f0f;
+	border-radius: 5px;
+}
+
+.profile__buttons {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	position: absolute;
+	top: 360px;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+.profile__buttons button {
+	width: calc(40% - 70px);
+	height: 50px;
+	border: 2px solid #213547;
+	/* box-shadow: 0px 0px 3px 0px rgba(66, 68, 90, 1); */
+	border-radius: 10px;
+	font-size: 1.1rem;
+	color: #0f0f0f;
+	font-weight: 600;
+	background: #213547;
+	cursor: pointer;
+	transition: .3s linear;
+}
+.profile__buttons button:hover {
+	border-radius: 0;
+	background: #0f0f0f;
+	color: #213547;
+}
+
+.profile__stats {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+
+@media screen and (max-width: 780px) {
+	.profile__card {
+		position: relative;
+		top: 30px;
+		width: calc(100% - 50px);
+		height: 500px;
+}
+	.profile__buttons button {
+		width: calc(70% - 70px);
+		height: 50px;
+}
 }
