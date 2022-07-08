@@ -685,14 +685,7 @@ a i {
 	.project__boxes .box {
     	min-width: calc(100% - 10px);
 	}
-	.project__info{
-		position: absolute;
-		right: 0;
-		left: 0;
-		display: flex;
-		margin: auto;
-		justify-content: center;
-	}
+
 }
 
 a.button, a.button:hover {
@@ -933,26 +926,38 @@ a.button, a.button:hover {
 	box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 .box .image{
-    width: 60px;
+    width: 90px;
     height: auto;
     top: 10px;
-	left: 10px;
+	display: flex;
+	margin: auto;
+	justify-content: center;
     position: relative;
     margin-bottom: 25px;
+	border-radius: 100%;
+	border: 2px solid var(--white-color);
+	cursor: pointer;
+	transition: .3s linear;
+}
+.box .image:hover {
+	border: 2px solid var(--first-color);
 }
 
 .image img { 
+	padding: 3px;
     border-radius: 100%;  
 }
 
 .project__info{
-    position: absolute;
-	top: 25px;
-	right: 60px;
-	margin-left: 25px;
+    position: relative;
+    top: -2px;
+    right: 0;
+    left: 0;
     color: var(--first-color);
     font-size: 1rem;
-    margin-bottom: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .project__info:hover {
 	color: #42b8b8;
@@ -1016,15 +1021,6 @@ a.button, a.button:hover {
 	.home__img {
 		right: 10%;
 	}
-	.project__info{
-    position: absolute;
-	top: 25px;
-	right: 60px;
-	margin-left: 25px;
-    color: var(--first-color);
-    font-size: 1.3rem;
-    margin-bottom: 5px;
-}
 
 }
 
