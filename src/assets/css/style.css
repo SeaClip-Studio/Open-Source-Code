@@ -683,15 +683,16 @@ a i {
         width:auto;
     }
 	.project__boxes .box {
-    min-width: calc(100% - 10px);
-}
-.project__info{
-	right: 0;
-	left: 0;
-	display: flex;
-	margin: auto;
-	justify-content: right;
-}
+    	min-width: calc(100% - 10px);
+	}
+	.project__info{
+		position: absolute;
+		right: 0;
+		left: 0;
+		display: flex;
+		margin: auto;
+		justify-content: center;
+	}
 }
 
 a.button, a.button:hover {
