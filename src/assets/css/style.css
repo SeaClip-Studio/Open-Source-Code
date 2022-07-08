@@ -1142,6 +1142,8 @@ a.button, a.button:hover {
 	font-size: 1rem;
 	letter-spacing: 1px;
 	margin: 10px;
+	border: none;
+	outline: none;
 }
 .profile__experience i {
 	margin-right: 5px;
