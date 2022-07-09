@@ -33,6 +33,9 @@
 						<li class="nav__item">
 							<a href="#project" class="nav__link">PROJECTS</a>
 						</li>
+						<li class="nav__item">
+							<a href="#profiles" class="nav__link">PROFILES</a>
+						</li>
 					</ul>
 				</div>
 
@@ -66,7 +69,7 @@
 					</p>
 				</div>
 				<div id="download">
-					<div class="btn-groups flex">
+					<div class="btn-groups flex drop">
 						<a href="https://github.com/SeaClip-Studio/Open-Source-Code">
 							<i class="fas fa-share"></i> PUBLISH A PROJECT
 						</a>
@@ -78,21 +81,21 @@
 				<div class="about__container bd-grid">
 					<div>
 						<h2 class="about__subtitle reveal">How do I get to publish my project on your site?</h2>
-						<p class="about__text reveal">
+						<p class="about__text drop">
                             The user can get in two ways, one of them is just placing his project on the appropriate text channel on our discord and it is possible that he will win in the weekly election of the best project. The second way is to win giveaway on our discord server.
 						</p>
 					</div>
 
 					<div class="about__img">
 						<img
-							class="reveal"
+							class="drop"
 							src="/src/assets/Images/projectLogo.png"
 							alt="logo"
 						/>
 					</div>
 					<div>
 						<h2 class="about__subtitle reveal">OSC - Open Source Code</h2>
-						<p class="about__text reveal">
+						<p class="about__text drop">
 							The OSC project is that every user of our discord server can share their source project code, weekly we choose a project worth paying attention to and then we place such a project on our website in the "PROJECTS" section and on this repository, selecting the "open-source-code" branch you will see all the projects that we have adopted so far
 						</p>
 					</div>
@@ -104,34 +107,71 @@
 
                 <div class="project__boxes">
                     <div class="box reveal">
-                        <div class="image" onclick="project1();">
+                        <div class="image drop" onclick="project1();">
                             <img src="/src/assets/Images/oscLogoBg.png">
                         </div>
                         <a href="/src/pages/profile-codeadiksuu.html"><h1 class="project__info">CodeAdiksuu</h1></a>
 						<p class="project__link reveal"><i class="fas fa-globe"></i>  www.oscprojects.ml</p>
                         <p class="project__subinfo reveal">The OSC project is that every user of our discord server can share their source project code, weekly we choose a project worth paying attention...</p>
-                        <button class="project__source" onclick="project1();"><i class="fas fa-code"></i> Source Code</button>
+                        <button class="project__source drop" onclick="project1();"><i class="fas fa-code"></i> Source Code</button>
                     </div>
                     <div class="box reveal">
-                        <div class="image" onclick="project2();">
+                        <div class="image drop" onclick="project2();">
                             <img src="/src/assets/Images/logoAdiksuu.png">
                         </div>
                         <a href="/src/pages/profile-codeadiksuu.html"><h1 class="project__info">CodeAdiksuu</h1></a>
 						<p class="project__link reveal"><i class="fas fa-globe"></i>  www.greategames.tk</p>
                         <p class="project__subinfo reveal">Jesteśmy nowym studiem, zajmującym się tworzeniem gier w języku c#, korzystając z silnika Unity 2D. Nasza gra o nazwie ??? jest wzorowana na popularnej...</p>
-                        <button class="project__source" onclick="project2();"><i class="fas fa-code"></i> Source Code</button>
+                        <button class="project__source drop" onclick="project2();"><i class="fas fa-code"></i> Source Code</button>
                     </div>
                     <div class="box reveal">
-                        <div class="image" onclick="project3();">
+                        <div class="image drop" onclick="project3();">
                             <img src="/src/assets/Images/sawixLogoBg.png">
                         </div>
                         <a href="/src/pages/profile-codeadiksuu.html"><h1 class="project__info">CodeAdiksuu</h1></a>
 						<p class="project__link reveal"><i class="fas fa-globe"></i>  www.sawixweb.ml</p>
                         <p class="project__subinfo reveal"> it is a simple website design informing channel viewers about the latest film and some information about the creator of the channel is given...</p>
-                        <button class="project__source" onclick="project3();"><i class="fas fa-code"></i> Source Code</button>
+                        <button class="project__source drop" onclick="project3();"><i class="fas fa-code"></i> Source Code</button>
                     </div>
                 </div>
             </section>
+
+			<section class="profiles" id="profiles">
+				<h1 class="section-title reveal">Open Source Code Profiles</h1>
+
+				<div class="profiles__boxes">
+					<div class="profiles__box reveal">
+						<div class="profiles__image">
+							<img src="/src/assets/Images/logoAdiksuu.png" class="drop" alt="">
+						</div>
+						<div class="profiles__info">
+							<h1 class="profiles__name reveal">CodeAdiksuu</h1>
+							<p class="profiles__subinfo drop">Javascript language programmer</p>
+							<a href="/src/pages/profile-codeadiksuu.html"><button class="profiles__look reveal">PROFILE</button></a>
+						</div>
+					</div>
+					<!-- <div class="profiles__box">
+						<div class="profiles__image">
+							<img src="/src/assets/Images/logoAdiksuu.png" alt="">
+						</div>
+						<div class="profiles__info">
+							<h1 class="profiles__name">CodeAdiksuu</h1>
+							<p class="profiles__subinfo">Javascript language programmer</p>
+							<button class="profiles__look">PROFILE</button>
+						</div>
+					</div> -->
+					<!-- <div class="profiles__box">
+						<div class="profiles__image">
+							<img src="/src/assets/Images/logoAdiksuu.png" alt="">
+						</div>
+						<div class="profiles__info">
+							<h1 class="profiles__name">CodeAdiksuu</h1>
+							<p class="profiles__subinfo">Javascript language programmer</p>
+							<button class="profiles__look">PROFILE</button>
+						</div>
+					</div> -->
+				</div>
+			</section>
 
 <footer class="footer">
 			<p class="footer__title">OSC Projects</p>

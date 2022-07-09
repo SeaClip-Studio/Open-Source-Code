@@ -572,13 +572,13 @@ section.about {
 
 .drop {
 	position: relative;
-	transform: translateX(100px);
+	transform: scale(0.7);
 	opacity: 0;
 	transition: all 1s ease;
 }
 
 .drop.active {
-	transform: translateX(0);
+	transform: scale(1);
 	opacity: 1;
 }
 
@@ -909,7 +909,7 @@ a.button, a.button:hover {
   }
 }
 
-.project__boxes {
+.project__boxes, .profiles__boxes {
     display: flex;
     max-width: calc(100% - 50px);
     justify-content: center;
@@ -1173,5 +1173,78 @@ a.button, a.button:hover {
 }
 	.profile__experience {
 		width: calc(25% - 5px);
+	}
+}
+
+
+.profiles__box {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 5px;
+	background: var(--white-color);
+	display: flex;
+	margin: 10px;
+	border: 1px solid #9b9b9b;
+	box-shadow: 0px 0px 3px 0px rgb(71, 71, 71);
+	cursor: pointer;
+	transition: .3s linear;
+}
+.profiles__box:hover {
+	background: #42b8b8;
+}
+
+.profiles__image img {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	width: 100px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40px;
+	border-radius: 50px;
+	background: var(--first-color);
+	padding: 3px;
+}
+.profiles__name {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	right: 0;
+	left: 0;
+	position: absolute;
+	top: 150px;
+}
+.profiles__subinfo {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	right: 0;
+	left: 0;
+	bottom: 80px;
+	position: absolute;
+}
+.profiles__look {
+	position: absolute;
+	bottom: 0;
+	border: none;
+	border-radius: 0;
+	width: 100%;
+	height: 50px;
+	background: var(--first-color);
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: .3s linear;
+}
+.profiles__look:hover {
+	color: #fff;
+	background: #42b8b8;
+}
+
+@media screen and (max-width: 780px) {
+	.profiles__box {
+		width: calc(100% - 5px);
 	}
 }
